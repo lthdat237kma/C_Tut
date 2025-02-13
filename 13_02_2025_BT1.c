@@ -14,13 +14,13 @@ int main() {
 	int a[n];
 	printf("Nhap %i phan tu cua mang: \n\n", n);
 
-	for (int i = 0; i < n; i++)  {
+	for (int i = 1; i < n; i++)  {
         printf("Phan tu thu %d la: \n", i);
         scanf("%d", &a[i]);
     }
     
 	int max = a[0];
-    for (int i = 1; i < n; i++) {
+    for (int i = 0; i < n; i++) {
         if ( a[i] > max) {
             max = a[i];
         }
