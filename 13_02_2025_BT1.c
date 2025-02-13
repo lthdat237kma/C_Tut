@@ -15,7 +15,7 @@ int main() {
 	printf("Nhap %i phan tu cua mang: \n\n", n);
 
 	for (int i = 1; i < n; i++)  {
-        printf("Phan tu thu %d la: \n", i);
+        printf("Phan tu thu %d la: \n", i+1);
         scanf("%d", &a[i]);
     }
     
